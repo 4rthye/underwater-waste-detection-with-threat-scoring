@@ -38,12 +38,12 @@ This project uses **YOLOv8** deep learning model to detect and classify underwat
 ## 🖼️ Detection Examples
 
 ### Before & After Detection
-![Detection Example 1](<img width="1528" height="582" alt="image" src="https://github.com/user-attachments/assets/109140dc-c1d6-405e-9c05-c6681bda7934" />)
-![Detection Example 2](<img width="1522" height="568" alt="image" src="https://github.com/user-attachments/assets/1e71b10c-14bb-46da-a4df-db7787092014" />
-)
+![Detection Example 1]<img width="1528" height="582" alt="image" src="https://github.com/user-attachments/assets/109140dc-c1d6-405e-9c05-c6681bda7934" />
+![Detection Example 2]<img width="1522" height="568" alt="image" src="https://github.com/user-attachments/assets/1e71b10c-14bb-46da-a4df-db7787092014" />
+
 
 ### Threat Analysis Dashboard
-![Dashboard](<img width="712" height="273" alt="image" src="https://github.com/user-attachments/assets/81bb6dfd-89e4-42f5-a086-c383b8969659" />)
+![Dashboard]<img width="712" height="273" alt="image" src="https://github.com/user-attachments/assets/81bb6dfd-89e4-42f5-a086-c383b8969659" />
 <img width="735" height="518" alt="image" src="https://github.com/user-attachments/assets/a2c7993f-6bfc-439b-be41-13fd349a2032" />
 
 
