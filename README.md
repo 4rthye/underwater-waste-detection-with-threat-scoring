@@ -97,3 +97,105 @@ python src/detect.py --image path/to/image.jpg --model model/best.pt
 ```
 
 ## 📁 Project Structure
+underwater-waste-detection/
+├── README.md                          # Project documentation
+├── requirements.txt                   # Python dependencies
+├── model/
+│   └── best.pt                        # Trained YOLOv8 model
+├── notebooks/
+│   └── underwater_waste_detection.ipynb  # Complete training pipeline
+├── data/
+│   └── sample_images/                 # Sample test images
+├── results/
+│   ├── detection_examples/            # Example detection outputs
+│   └── waste_analysis_dashboard.png   # Analytics dashboard
+└── src/
+└── detect.py                      # Inference script
+
+## 🔬 Methodology
+
+### 1. Data Collection
+- Dataset: 3,628 underwater waste images
+- Source: [Dataset name]
+- Classes: Plastic, Metal, Glass, Paper, Rubber misc
+
+### 2. Model Training
+- Architecture: YOLOv8 Nano
+- Framework: Ultralytics
+- Training: 50 epochs with early stopping
+- Augmentation: Roboflow preprocessing
+
+### 3. Threat Assessment
+Custom scoring algorithm based on:
+- Decomposition time
+- Marine toxicity
+- Physical harm to wildlife
+- Microplastic generation
+
+### 4. Evaluation
+- Precision, Recall, mAP metrics
+- Confusion matrix analysis
+- Real-world testing on validation set
+
+
+## 🎓 Academic Context
+
+**Project Type:** Mini Project  
+**Institution:** Manipal Academy of Higher Education (MAHE), Dubai  
+**Program:** B.Tech Data Science & Engineering  
+**Supervisor:** Dr. Balamurugan Balusamy  
+**Focus:** AI for Sustainability & Marine Conservation
+
+## 🌍 Impact & Applications
+
+- **Marine Conservation:** Assist cleanup crews in identifying high-priority areas
+- **Environmental Monitoring:** Track waste accumulation over time
+- **Research:** Analyze waste distribution patterns
+- **Education:** Raise awareness about ocean pollution
+
+## 🔮 Future Enhancements
+
+- [ ] Video-based route optimization for cleanup robots
+- [ ] Real-time detection from underwater drones
+- [ ] Mobile app for citizen science
+- [ ] Integration with marine debris databases
+- [ ] Temporal analysis for waste tracking
+
+## 🛠️ Technologies Used
+
+- **Deep Learning:** YOLOv8, PyTorch
+- **Computer Vision:** OpenCV, Ultralytics
+- **Data Processing:** NumPy, Pandas
+- **Visualization:** Matplotlib, Seaborn
+- **Environment:** Google Colab, Python 3.10
+
+## 📝 Citation
+
+If you use this project in your research, please cite:
+
+```bibtex
+@misc{underwater_waste_detection_2025,
+  author = {Arthye Sridharan},
+  title = {Underwater Waste Detection and Threat Scoring System},
+  year = {2025},
+  publisher = {4rthye},
+  url = {https://github.com/4rthye/underwater-waste-detection}
+}
+```
+
+## 📧 Contact
+
+**Arthye**  
+B.Tech Data Science & Engineering  
+Manipal Academy of Higher Education, Dubai  
+Email: arthye2004@gmail.com  
+LinkedIn: linkedin.com/in/arthyesridharan
+
+
+## 📄 License
+
+This project is licensed under the MIT License - see LICENSE file for details.
+
+---
+
+⭐ **Star this repository if you found it helpful!**
